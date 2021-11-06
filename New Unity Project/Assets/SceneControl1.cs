@@ -112,6 +112,7 @@ public class SceneControl1 : MonoBehaviour {
             {
                 _score++;
                 scoreLabel.text = "Score: " + _score;
+                
 
             }
             else
