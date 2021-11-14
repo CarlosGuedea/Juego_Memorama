@@ -41,7 +41,7 @@ public class Scenecontrol3 : MonoBehaviour
                 {
 
                     card = Instantiate(originalCard) as Carta3;
-}
+                }
 
 
                 int index = j * griCols + i;
@@ -78,7 +78,7 @@ public class Scenecontrol3 : MonoBehaviour
 
     }
 
-    }
+    
     private Carta3 _firstReveaLed;
     private Carta3 _sconReveaLed;
 
@@ -88,10 +88,11 @@ public class Scenecontrol3 : MonoBehaviour
     private TextMesh scoreLabel;
 
     public bool canReveal
+    
     {
         get { return _sconReveaLed = null; }
-
     }
+
 
 public void CardReveaLed(Carta3 card)
     {
@@ -108,4 +109,32 @@ public void CardReveaLed(Carta3 card)
         }
 
     }
+
+    private IEnumerator CheckedMatch()
+    {
+        if (_firstReveaLed.id == _sconReveaLed.id)
+        {
+            _score++;
+            scoreLabel.text = "Score: " + _score;
+
+
+
+        }
+        else
+        {
+            yield return new WaitForSeconds(0.5f);
+
+            _firstReveaLed.Unreveal();
+            _sconReveaLed.Unreveal();
+
+        }
+
+        _firstReveaLed = null;
+        _sconReveaLed = null;
+
+    }
+
+    void cardCoparion(List<int> c){
+    }
+
 }

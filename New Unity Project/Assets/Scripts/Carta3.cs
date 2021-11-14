@@ -4,12 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class carta3 : MonoBehaviour
+public class Carta3 : MonoBehaviour
 
 {
 
     [SerializeField]
-    private Scenecontrol6 controller;
+    private Scenecontrol3 controller;
 
     [SerializeField]
     private GameObject carta3;
