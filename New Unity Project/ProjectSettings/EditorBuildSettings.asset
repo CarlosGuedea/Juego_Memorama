@@ -14,10 +14,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Menu/Categorias.unity
     guid: 697e1dbeba8ce844882426794aa9f73d
+  - enabled: 1
+    path: Assets/Scenes/Nivel 1/Alimentos.unity
+    guid: 7f197e6b9dee3f8489dd184c025ac963
+  - enabled: 1
+    path: Assets/Scenes/Nivel 1/Animales.unity
+    guid: c38d8150df2f3214b9c59b4ef2dcd794
+  - enabled: 1
+    path: "Assets/Scenes/Nivel 1/N\xF9meros.unity"
+    guid: 4e16c14ff52be404cb2a6f1316bcb4c0
+  - enabled: 1
+    path: Assets/Scenes/Nivel 1/Transporte.unity
+    guid: 55027cda85748cb4bb58d62d11d74fd7
   - enabled: 0
     path: Assets/Scenes/Num_Nivel1.unity
     guid: e0fe02a178c4f0f43b9c02e5c2158a83
   - enabled: 0
-    path: Assets/Scenes/Nivel2Num.unity
+    path: 
     guid: 2aecf0ec107a0064199fc1f89c37a2df
   m_configObjects: {}
