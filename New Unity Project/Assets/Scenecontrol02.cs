@@ -110,6 +110,8 @@ public class Scenecontrol02 : MonoBehaviour
         {
             _score++;
             scoreLabel.text = "Score: " + _score;
+            if (_score == 9)
+                SceneManager.LoadScene("Números2");
 
 
         }

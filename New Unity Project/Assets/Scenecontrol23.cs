@@ -111,6 +111,8 @@ public class Scenecontrol23 : MonoBehaviour
         {
             _score++;
             scoreLabel.text = "Score: " + _score;
+            if (_score == 9)
+                SceneManager.LoadScene("Animales 3");
 
 
         }

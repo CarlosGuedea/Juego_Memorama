@@ -26,10 +26,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel 1/Transporte.unity
     guid: 55027cda85748cb4bb58d62d11d74fd7
-  - enabled: 0
-    path: Assets/Scenes/Num_Nivel1.unity
-    guid: e0fe02a178c4f0f43b9c02e5c2158a83
-  - enabled: 0
-    path: 
-    guid: 2aecf0ec107a0064199fc1f89c37a2df
+  - enabled: 1
+    path: Assets/Scenes/Nivel 2/Alimentos2.unity
+    guid: 5c68e87efaefbe74d9fac3132053b5b7
+  - enabled: 1
+    path: Assets/Scenes/Nivel 2/Animales2.unity
+    guid: d88efe118cce0e84287aed893c93868a
+  - enabled: 1
+    path: "Assets/Scenes/Nivel 2/N\xFAmeros2.unity"
+    guid: b485aa1a74faa504dbb32c139cd935de
+  - enabled: 1
+    path: Assets/Scenes/Nivel 2/Transportes2.unity
+    guid: fe4d9325f04a1c54b8f6ba670f84fdfd
+  - enabled: 1
+    path: Assets/Scenes/Nivel 3/Alimentos 3.unity
+    guid: b33ab06cb10992d42a549b959bf900ee
+  - enabled: 1
+    path: Assets/Scenes/Nivel 3/Animales 3.unity
+    guid: bb4ac95d3a5928e4ba8b5e2f6db54953
+  - enabled: 1
+    path: "Assets/Scenes/Nivel 3/N\xFAmeros 3.unity"
+    guid: 38ad876d5eaabd549af34180e8c2ec4f
+  - enabled: 1
+    path: Assets/Scenes/Nivel 3/Transportes 3.unity
+    guid: 72484d439897f584cb4c12501ec101a7
+  - enabled: 1
+    path: Assets/Scenes/Fin del Juego.unity
+    guid: 5b0424470a681bd4bbf5c648788dd4ab
   m_configObjects: {}
